@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "creation": "2021-08-02 14:26:15.624641",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_date",
+  "to_date",
+  "booking_desk_package",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date"
+  },
+  {
+   "fieldname": "booking_desk_package",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Booking Desk Package",
+   "options": "Booking Desk Package"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-02 14:47:50.497676",
+ "modified_by": "Administrator",
+ "module": "Booking",
+ "name": "Booking Desk Pricing Package",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

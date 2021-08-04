@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "autoname": "prompt",
+ "creation": "2021-08-02 14:38:04.959231",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "booking_desk_type",
+  "column_break_2",
+  "item",
+  "section_break_4",
+  "amenities"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amenities",
+   "fieldtype": "Table",
+   "label": "Amenities",
+   "options": "Booking Desk Amenity"
+  },
+  {
+   "fieldname": "booking_desk_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Booking Desk Type",
+   "options": "Booking Desk Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-02 14:53:55.463518",
+ "modified_by": "Administrator",
+ "module": "Booking",
+ "name": "Booking Desk Package",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
